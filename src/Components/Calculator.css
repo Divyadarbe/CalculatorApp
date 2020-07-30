@@ -1,0 +1,93 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    outline: 3px solid orange;
+    
+}
+.row1{
+    display: flex;
+    background-color:rgba(20, 78, 15, 0.432);
+    color: black;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+    height:100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.row2{
+    display: flex;
+    background-color: tomato;
+    flex-direction: row;
+}
+.col1{
+    display: flex;
+    background-color: turquoise;
+    flex-direction: column;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    background-color:violet;
+}
+.row3{
+    display: flex;
+    justify-content: stretch;
+    
+}
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.button-wrapper{
+    display: flex;
+    background-color:orange;
+    width: 100px;
+    color:black;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  
+}
+.clearAc-button{
+    display: flex;
+    background-color:orange;
+    color: black;
+    font-weight: bold;
+    width: 200px; 
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.operator{
+    display: flex;
+    background-color:black;
+    width: 100px; 
+    color:orange;
+    text-align: center;
+    line-height: 59px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* .button-wrapper {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #888888;
+    flex: 1;
+    outline: 1px solid #888888;
+  } */
+
